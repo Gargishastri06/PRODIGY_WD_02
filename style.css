@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background:linear-gradient(to bottom right ,#f3efff, #fbeef5);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main_container{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.1);
+}
+
+#heading{
+    color: #2e2e45;
+
+}
+
+#display{
+    background-color: #f3efff;
+    width: 60%;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 30px 30px 80px;
+    font-size: 16px;
+    color: 	#2e2e45;
+
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    outline: none;
+    border: none;
+    padding: 20px;
+
+}
+#start{
+    background-color: #a8a8f0;
+    color: 	#1f1f2e;
+    font-size: 20px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+#stop{
+    background-color:#a1c9f9 ;
+    color: 	#1f1f2e;
+    font-size: 20px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#reset{
+    background-color:#facfd8;
+    color: 	#1f1f2e;
+    font-size: 20px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#lap{
+    background-color:#C6F6D5;
+    color: 	#1f1f2e;
+    font-size: 20px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#info_lap{
+    display: none;
+    background-color:white;
+    width: 60%;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 30px 30px 80px;
+    font-size: 16px;
+    
+} 
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+#lapList li {
+    background-color: #f3efff;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #2e2e45;
+    font-size: 16px;
+}
+#start:hover{
+    background-color: #c4c4f5 ;
+}
+
+#stop:hover{
+    background-color: #c3dcfb ;
+}
+
+#reset:hover{
+    background-color:#fcdde4 ;
+}
+
